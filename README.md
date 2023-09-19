@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Star Wars Character Explorer
+
+Explore the Star Wars Universe with our Star Wars Character Explorer! Dive into a galaxy far, far away as you search, browse, and discover information about your favorite Star Wars characters. Our explorer is designed to provide you with a seamless experience, featuring:
+
+- Character List: Get an overview of each character's name, birth year, height, and creation date, all neatly organized on a user-friendly page.
+
+- Pagination: Easily navigate through the extensive list of characters with our intuitive pagination system, ensuring a smooth browsing experience.
+
+- Searching: Find your favorite characters in an instant by searching their names directly from the overview page, making it convenient and efficient.
+
+- Character Detailed View: Delve deeper into the Star Wars universe by interacting with individual characters. Unlock a treasure trove of information, including average lifespan, classification, language, starship names, starship models, and passenger details, alongside the basic attributes.
+
+Embark on your Star Wars adventure and explore the rich tapestry of characters from a galaxy filled with heroes, villains, and everything in between!
 
 ## Getting Started
 
@@ -14,21 +26,16 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+First, run the development server:
 
-## Learn More
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
